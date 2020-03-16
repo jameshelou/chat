@@ -1,0 +1,29 @@
+.Header {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  background-color: rgb(53, 53, 53);
+  flex: 1 1 12vh;
+}
+
+.Header__img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin: 0 1rem;
+}
+
+.Header__infoSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Header__name {
+  margin-bottom: 0;
+}
+
+.Header__status {
+  margin-top: 8px;
+  color: rgb(157, 157, 157);
+}

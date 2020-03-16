@@ -1,0 +1,32 @@
+.User {
+  display: flex;
+  padding: 16px;
+  color: white;
+  align-items: center;
+}
+
+.User:hover {
+  cursor: pointer;
+  background: rgba(216, 216, 216, 0.2);
+  transition: background 0.2s ease-in;
+}
+
+.User__pic {
+  border-radius: 50%;
+  max-width: 75px;
+  max-height: 75px;
+  margin-right: 16px;
+}
+
+.User__details {
+  text-align: left;
+}
+
+.User__name {
+  font-weight: bold;
+}
+
+.User__status {
+  font-size: 1rem;
+  color: rgb(176, 176, 176);
+}

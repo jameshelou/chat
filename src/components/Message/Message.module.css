@@ -1,0 +1,23 @@
+.Message {
+  padding: 16px;
+  margin-bottom: 8px;
+  max-width: 55%;
+  text-align: left;
+}
+
+.Message__user {
+  display: flex;
+  align-items: center;
+  background-color: rgb(60, 76, 86);
+  align-self: flex-end;
+  margin-right: 16px;
+}
+
+.Message__notUser {
+  display: flex;
+  align-items: center;
+  background: rgb(64, 92, 193);
+  background: linear-gradient(90deg, rgba(64, 92, 193, 1) 0%, rgba(222, 63, 251, 1) 100%);
+  align-self: flex-start;
+  margin-left: 16px;
+}
