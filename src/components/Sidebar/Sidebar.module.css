@@ -1,4 +1,10 @@
 .Sidebar {
   background-color: #2b2b2b;
   overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Chrome + Safari */
+.Sidebar::-webkit-scrollbar {
+  display: none;
 }

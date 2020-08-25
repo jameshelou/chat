@@ -4,4 +4,10 @@
   height: 88vh;
   overflow-y: auto;
   flex: 3 1 auto;
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Chrome + Safari */
+.Messages::-webkit-scrollbar {
+  display: none;
 }
